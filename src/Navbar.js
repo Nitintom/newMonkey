@@ -16,14 +16,14 @@ export class Navbar extends Component {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <Link className="nav-link" href="/">Home <span className="sr-only">(current)</span></Link>
+        <Link className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
       </li>
-      <li className="nav-item"><Link className="nav-link" href="/business">Business</Link></li>
-      <li className="nav-item"><Link className="nav-link" href="/general">General</Link></li>
-      <li className="nav-item"><Link className="nav-link" href="/health">Health</Link></li>
-      <li className="nav-item"><Link className="nav-link" href="/science">Science</Link></li>
-      <li className="nav-item"><Link className="nav-link" href="/sports">Sports</Link></li>
-      <li className="nav-item"><Link className="nav-link" href="/technology">Technology</Link></li>
+      <li className="nav-item"><Link className="nav-link" href="#business">Business</Link></li>
+      <li className="nav-item"><Link className="nav-link" href="#general">General</Link></li>
+      <li className="nav-item"><Link className="nav-link" href="#health">Health</Link></li>
+      <li className="nav-item"><Link className="nav-link" href="#science">Science</Link></li>
+      <li className="nav-item"><Link className="nav-link" href="#sports">Sports</Link></li>
+      <li className="nav-item"><Link className="nav-link" href="#technology">Technology</Link></li>
     </ul>
   </div>
 </nav>
